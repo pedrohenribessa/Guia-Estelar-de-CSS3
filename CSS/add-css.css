@@ -1,0 +1,24 @@
+/*
+    # Adicionando CSS
+    
+        * inline
+        - atributo `style`
+
+        * <style>
+        - tag HTML QUE IRÁ CONTER O css
+
+        * <link>
+        - arquivo css externo 
+
+        * @import
+        - arquivo css externo
+*/
+
+/* @import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');*/
+h1{
+    color: red;
+    font-family: 'Ms Madi', cursive
+}
+strong {
+    color: blue;
+}
