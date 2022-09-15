@@ -1,0 +1,26 @@
+/*
+    * At-rules
+    - Está relacionado ao comportamento do CSS
+    - Começa com um sinal de `@` seguido  do didentificador e valor
+
+    * Exemplos comuns
+
+    - @import       . incluir um CSS externo
+    - @media        . regras condicionais para dispositivos
+    - @font-face    . fontes externas
+    - @keyframes    . animation
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+
+@media (min-width: 500px) {
+    /* rules here */
+}
+
+@font-face {
+    /* rules here */
+}
+
+@keyframes nameofanimation{
+    /* rules here */
+}

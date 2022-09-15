@@ -1,0 +1,43 @@
+/*
+    Cascata
+    . Oriigem do estilo
+    . Especifidade
+    . Importância
+
+    # Origem do estilo
+
+    . inline > Tag Style > Tag link
+
+    # Especificidade
+
+    . É um calculo matemático, onde, cada tipo de seletor e origem do estilo, possuem valores a serem conciderados.
+*/
+
+/* Força dos estilos */
+h1.tittle#my-title{
+    color: brown;
+}
+
+h1 {
+    color:blue !important;
+}
+
+/* Especificidade */
+* {
+    color: green;
+}
+
+#my-title {
+    color:aqua ;
+}
+
+.tittle {
+    color: blueviolet;
+}
+
+    /*
+     Regra !important 
+        * cuidado, evite o uso
+        * não é conciderado um boa prática
+        * quebra o fluxo natural da cascata
+    */    

@@ -1,0 +1,96 @@
+/*
+    #shorhand
+
+    - junção de propriedades
+    - resumido
+    - legível
+*/
+
+span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    animation: BANANAy 9s infinite;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+
+div  {
+    background-image: url(https://images.unsplash.com/photo-1605101479435-005f9c563944?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80) ;
+    height: 30vh;
+    width: 50vw;
+    background-position: center;
+  
+    border-radius: 15rem;
+    animation: BANANA 3s infinite;
+    
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    animation: BANANAe 9s infinite;
+}
+
+@keyframes BANANA {
+    0% {
+        transform: translateX(385px);
+    }
+    
+    50% {
+        transform: translateX(-385px);
+    }
+
+    100% {
+        transform: translateX(385px);
+    }
+}
+@keyframes BANANAe {
+    0% {
+        color:blue;
+    }
+    20% {
+        color: red;
+
+    }
+    40% {
+        color: green;
+    }
+    60% {
+        color: purple;
+    }
+    80% {
+        color: yellow;
+    }
+    100% {
+        color: blue;
+    }
+}
+
+@keyframes BANANAy {
+    0% {
+        background-color:blue;
+    }
+
+    20% {
+        background-color: red;
+
+    }
+    40% {
+        background-color: green;
+    }
+
+    60% {
+    background-color: purple;
+}
+    80% {
+    background-color: yellow;
+}
+    100% {
+        background-color: blue;
+    }
+}
