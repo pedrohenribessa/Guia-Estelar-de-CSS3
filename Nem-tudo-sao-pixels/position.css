@@ -1,0 +1,40 @@
+/*
+        <position>
+
+    Representa um conjunto de coordenadas 2D:
+    top, right, bottom, left e center
+    Usado para alguns tipos de propriedades como o background-position
+    Não confundir com a propriedade position
+
+        Exemplos de funções do CSS:
+
+    hsl()
+    url()
+    calc()
+    rgb()
+
+    # Strigens e identificadores
+
+    * Strings: Texto envolto em aspas
+    * Identificadores: red, black, gold
+
+*/
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+.box {
+    width: 100%;
+    height: calc(100% - 40px);
+    background-image: url(https://source.unsplash.com/random);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover ;
+}
+
+.box::after {
+    content: "Agora vai ser diferente!";
+    color: red;
+    font-size: 32px;
+}

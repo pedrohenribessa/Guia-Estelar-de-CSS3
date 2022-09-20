@@ -1,0 +1,43 @@
+/*
+    #Display: block; vs display: inline;
+
+    . Como as caixas se comportam em relação as outras caixas
+    . Comportamento externo das caixas
+
+    | block                           |  Inline                      |
+    |---------------------------------|------------------------------|
+    | Ocupa toda a linha, colocando o | elemento ao lado do outro    | 
+    | próximo elemento abaixo desse   |                              |
+    |---------------------------------|------------------------------|
+    |width e heigth são respeitados   |width e heigth não funcionam  |
+    |---------------------------------|------------------------------|
+    | padding =, margin, border irão  |somente valores horizontais de|
+    | funcionar normalmente.          |margin, padding, e border     |
+    |---------------------------------|------------------------------|
+
+    exemplos
+    block: '<p> <div> <section>', todos headings '<h1><h2>...'
+    inline: '<a> <strong> <span> <em>'
+*/
+
+div {
+    /*respeita a altura e largura, só nao respeita se colocarmos 'display: inline'*/
+    width: 100px;
+    height: 30px;
+    border: solid 1px red;
+    /* display: inline; */
+
+    /*respeita todos os lados*/
+    margin: 100px;
+}
+
+span {
+    /*não funciona altura e largura, apenas se colocar um 'display: block'*/
+    width: 100px;
+    height: 200px;
+    border: solid 1px blue;
+    /* display: block; */
+
+    /*respeita apenas nas laterias*/
+    margin: 100px;
+}

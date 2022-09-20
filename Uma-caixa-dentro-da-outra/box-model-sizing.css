@@ -1,0 +1,32 @@
+/*
+    # Box Model
+    - Fundamental para fazer layouts para web
+    - Maior facilidade   para aplicar css
+
+    # O que é
+    . Uma caixa retangular.
+    . Essa caixa possui propriedades de uma caixa (2D)
+
+    Propriedades da caixa
+
+        Tamanho (largura x altura) → width | height
+        Conteúdo → content
+        Bordas → border
+        Preenchimento interno → padding
+        Espaços fora da caixa → margin
+
+    # BOX-SIZING
+    . Como será calculado o tamanho total da caixa
+    - content-box | border-box
+*/
+* {
+    box-sizing: border-box;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    margin: 5%;
+    border: 1px solid red;
+    padding: 0 30px;
+}

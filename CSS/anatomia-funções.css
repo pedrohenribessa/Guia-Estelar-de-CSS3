@@ -1,0 +1,22 @@
+/* comentário CSS */
+/*
+    # Anátomia CSS 
+        * Selector
+        * Declaration
+        * Properties
+        * Property Value
+
+    # Funções CSS
+        * nome seguido de abre e fecha parentesis
+        * recebe argumentos
+
+    # Exemplos
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+
+    h1{
+        color: rgb(203, 102, 200);
+        font-size: 60px;
+        background: black
+    }
