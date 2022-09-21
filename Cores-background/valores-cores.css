@@ -1,0 +1,83 @@
+/*
+    # Cores
+    Usamos CSS para alterar cores do nosso documento.
+
+        .Tipos
+    - background-color (para caixas)
+    - color (para textos)
+    - border-color (para caixas)
+    - outros
+
+        .Valores
+        * Podemos definir valores por:
+
+    - palavra-chave (blue, transparent)
+    - hexadecimal (#990011)
+    - funções: rgb, rgba, hsl, hsla
+*/
+
+/*
+        # Hexadecimal
+
+    <hex-color> values 0-9 e A-F 
+    
+div {
+    color: #102050;
+}
+
+h1 {
+    color: #090f;
+}
+
+p {
+    color: #892010bb;
+}
+*/
+
+/*
+        # RGB
+
+    <rgb-color> values 0-255 | 0.1 a 1.0 | 1% a 100
+
+
+
+div {
+    color:rgba(224, 61, 24, 0.3) ;
+}
+
+h1 {
+    color:rgb(31, 45, 106, 60%) ; 
+}
+
+p {
+    color:rgb(100, 255, 65) ;
+}
+*/
+
+/*
+        # HSL
+
+    <hsl ()> values 
+    HSL (hue saturation luminence)
+*/
+
+div {
+    color:hsla(180, 100%, 25%, 10%) ;
+}
+
+h1 {
+    color:hsl(300, 50%, 50%) ;
+}
+
+/* p {
+    color:hsl(20, 50%, 80%) ;
+} */
+/*
+        # Global values
+        color: inherit
+        color: initial
+        color: unset
+*/
+p {
+    color: initial;
+}

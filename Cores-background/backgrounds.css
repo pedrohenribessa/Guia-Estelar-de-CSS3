@@ -1,0 +1,56 @@
+/*
+        # Background
+    - Define um fundo para nosso elemento
+    - Sua área de atuação é a caixa toda
+    - Por padrão, é transparente
+
+        * Exemplos
+    - Usar cores solidas
+    - Usar imagens
+    - Controlar
+        . a posição das imagens
+        . se elas se repetem ou não
+        . o tamanho delas na caixa
+    - Usar cor e imagem juntas
+    - Usar cor gradiente
+*/
+* {
+    margin: 0;
+}
+
+/* header {
+    border: 8px dashed rgba(100, 65, 255);
+    height: 300px;
+    padding: 10px;
+
+    background-color: hsl(190, 100%, 25%);
+    background-image: url(http://s2.glbimg.com/JGwJWYMQI93ACc8C_mmTrixkzx0=/e.glbimg.com/og/ed/f/original/2015/03/25/universo1.jpg);
+    background-repeat: no-repeat;repeat-x | repeat-y
+    background-position:center ; left, bottom, top, right
+    background-size:contain ;contain | cover | % | em, rem, px, cm...
+    background-origin:border-box ;content-box | padding-box | border-box
+    background-clip:border-box ; content-box | padding-box | boreder-box
+} */
+p {
+    font-size: 32px;
+}
+
+main {
+    color: white;
+    padding: 40px;
+
+        background-color: hsl(190, 100%, 25%);
+        background-image: url(http://s2.glbimg.com/JGwJWYMQI93ACc8C_mmTrixkzx0=/e.glbimg.com/og/ed/f/original/2015/03/25/universo1.jpg);
+        background-repeat: no-repeat;/*repeat-x | repeat-y*/
+        background-position:center ; /*left, bottom, top, right*/
+        background-size:contain ;/*contain | cover | % | em, rem, px, cm...*/
+        background-origin:border-box ;/*content-box | padding-box | border-box*/
+        background-clip:border-box ; /*content-box | padding-box | border-box*/
+        background-attachment:fixed ; /*scroll*/
+
+
+        /*Shorthand*/
+         background:/* hsl(190, 100%, 25%)*/linear-gradient(45deg, rgba(255, 0, 0, 0.9), rgba(0, 0, 255, 0.9)),  url(http://s2.glbimg.com/JGwJWYMQI93ACc8C_mmTrixkzx0=/e.glbimg.com/og/ed/f/original/2015/03/25/universo1.jpg) no-repeat top right / 30em padding-box content-box fixed;
+
+        /*background: linear-gradient(45deg, rgba(255, 0, 0, 0.9), rgba(0, 0, 255, 0.9)); | rbg, hsl, hexadecimais, color name*/
+    }
