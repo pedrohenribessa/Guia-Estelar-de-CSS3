@@ -1,0 +1,48 @@
+/*
+    # Page Layouts
+
+    - tables
+    - floats e clear
+    - frameworks e grid systems
+    - flexbox
+    - grid
+
+    ## Posicionamentos
+
+    Controlar onde, na pagina, o elemnto ira ficar, alterando o fluxo normal dos elementos.
+    
+    - name: position
+    - value: static | relative | absolut | fixed
+
+    Relative: left, top, rigth, bottom, z-index
+*/
+
+.box {
+    width: 140px;
+    height: 140px;
+    margin-bottom: 8px;
+}
+.box1 {
+    background-color: blue;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    z-index: 3;
+}
+
+.box2 {
+    background-color: yellow;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 4;
+}
+
+.box3 {
+    background-color: red;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 1;
+}
+
