@@ -1,0 +1,106 @@
+/*
+    # Trabalhando com fontes
+    tipografia transmite mensagem
+    - nefrito
+    - tamanho
+    - estilo
+
+    # Basic Font Properties
+    * font-family
+    * font-weight
+    * font-style
+    * font-size
+*/
+
+/*
+    Font Family
+    * Tipos de fonte de um elemento
+    * Lista de fontes e ordem de prioridade
+    * Inclui *fallback*
+
+    Font Weight
+    * Peso da fonte
+
+    Font Style
+    * O estilo da fonte
+
+    Font-size
+    * tamanho da fonte
+
+    Web fonts
+    - fontes do sistema x fontes da web
+    - como usar fontes para web?
+    * @font-face
+    * @impot
+    * link
+*/
+
+/*
+    Font-variant
+
+    Font-stretch
+    * alargamento ou encolhimento da fonte
+    * aceita palavras-chaves: expansed, condensed, normal 
+    * aceita porcentagens de 50% a 200%
+
+    letter-spacing
+    * espaços entre caracteres
+
+    Word-spacing
+    * espaços entre palavras
+
+    Line-heigth
+    * espaços entre linhas
+    * pode ser com unidades ou sem unidades de medidas
+    * comuns: 1,5 ou 2
+
+    Text-transform
+    * transformaçao do texto
+    * values: uppercase, capitalize, lowercase, none.
+
+    Text decoration
+    * Aparência decorativa de um texto
+    * line: underline | overline | line-through
+        - podemos aplicar mais de 1 valor
+    * style: wavy | dotted | double | dashed | solid
+    * color: <color> values
+
+    Text-align
+    * alinhamento de um texto
+    * center, left, right e justify
+
+    Text-shadow
+    * sombra aplicada a um texto
+    * permite multiplos valores
+    * offset-x | offset-y | blur-radius | color
+
+    SHORTHAND
+    * font-style, font-variant, font-weight, font-stretch, font-size, line-heigth, e font-family
+*/
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 30px;
+
+    /* Web Fonts */
+    font-family: 'Ms Madi', cursive;
+
+    font-variant: small-caps;
+    font-stretch: 50%; /* essa fonte-family nao aceita*/
+    letter-spacing: 20px; /*word-spacing: 10px;*/
+    line-height: 2.9;
+    text-transform: uppercase; /*values: uppercase, capitalize, lowercase, none.*/
+    text-decoration: underline overline line-through wavy blue;
+    text-align: center;
+    text-shadow: 1px 1px 10px red,
+                 2px 2px 8px orange;
+
+}
+p {
+    font: italic 3em/2.9 Helvetica, Arial, sans-serif !important;
+}
+
+
+
