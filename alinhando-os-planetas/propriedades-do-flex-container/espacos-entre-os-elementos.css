@@ -1,0 +1,21 @@
+/*
+    # gap
+
+    - Espaços entre os elementos
+
+    ## Valores
+
+    - unidades de medidas
+    - fixas: px, pt
+    - flexiveis: %, em, rem
+*/
+
+.box {
+    display: flex;
+    border: 1px dashed red;
+    gap: 2%;
+}
+
+.box div {
+    border: 1px solid;
+}

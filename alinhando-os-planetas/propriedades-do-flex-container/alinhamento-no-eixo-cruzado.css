@@ -1,0 +1,25 @@
+/*
+    # align-items
+
+    - Alinhamento dos elementos no eixo cruzado
+
+    ## valores
+
+    - stretch
+    - flex-start
+    - flex-end
+    - center
+*/
+
+.box {
+    flex-direction: column;
+    display: flex;
+    border: 1px dashed red;
+    height: 150px;
+
+    align-items: center;
+}
+
+.box div {
+    border: 1px solid;
+}

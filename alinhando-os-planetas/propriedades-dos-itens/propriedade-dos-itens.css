@@ -1,0 +1,82 @@
+/*
+    # flex-basis
+*/
+
+.box {
+    display: flex;
+    flex-direction: column;
+    border: 1px dashed red;
+    margin-bottom: 50px;
+}
+
+.box div {
+    border: 1px solid;
+    flex-basis: 15%;
+}
+
+.box div:nth-child(1) {
+    width: 25px;
+}
+
+/*
+    # flex-grow
+
+    - O crescimento do item dentro do container em relação aos espaços vazios.
+*/
+
+.box1 {
+    border: 1px dashed red;
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    margin-bottom: 50px;
+}
+
+.box1 div {
+    border: 1px solid;
+}
+
+.box1 div:nth-child(3) {
+    flex-grow: 1;
+}
+
+/*
+    # flex-shrink
+
+    - O encolher do item dentro do container.
+*/
+
+.box2 {
+    border: 1px dashed red;
+    display: flex;
+    width: 200px;
+    margin-bottom: 100px;
+}
+
+.box2 div {
+    flex-basis: 100px;
+    border: 1px solid;
+}
+
+.box2 div:nth-child(2),
+.box2 div:nth-child(3) {
+    flex-shrink: 3;
+}
+
+/*
+    # flex
+
+    - shorthand
+    - flex-grow flex-shrink flex basis
+    - podem ter 1, 2 ou 3 valores
+*/
+
+.box3 {
+    display: flex;
+    border: 1px dashed red;
+}
+
+.box3 div {
+    border: 1px solid;
+    flex: 1 1 0;
+}

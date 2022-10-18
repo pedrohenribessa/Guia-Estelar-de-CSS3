@@ -1,0 +1,17 @@
+/*
+    # flex-wrap
+
+    - Podemos usar multi linhas
+    - Cada nova linha um novo flex container
+*/
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px dashed red;
+}
+
+.box div {
+    border: 1px solid;
+    width: 100px;
+}

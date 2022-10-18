@@ -1,0 +1,18 @@
+/*
+    # flex-flow
+
+    - shorthand
+    - flex-direction ||  flex-wrap
+*/
+
+.box {
+    display: flex;
+    border: 1px dashed red;
+
+    flex-flow: row wrap;
+}
+
+.box div {
+    border: 1px solid;
+    width: 80px;
+}
