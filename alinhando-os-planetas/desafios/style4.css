@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+}
+
+h1 {
+    margin: 20px 0px 20px 20px;
+}
+
+.conteudo {
+    width: 25vw;
+    height: 20vh;
+    margin-left: 20px;
+    border: solid gray 1px;
+}
+
+.pontos {
+    height: 25px;
+    background-color: gray;
+    padding-left: 5px;
+}
+
+.window {
+    margin-left: 20px;
+}
+
+.img, .img2 {
+    width: 10px;
+    height: 10px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100% - 25px);
+    gap: 1rem;
+}
+
+main button {
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+}
+
+.button1, .button2 {
+    width: 90px;
+    height: 35px;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 5%;
+}
